@@ -1,0 +1,174 @@
+.nav1{
+    background-color:#495057;
+}
+
+.nav1 img{
+    width: 150px;
+}
+
+.nav-link:hover{
+    color: #ffc107 !important;
+}
+
+.banner{
+    background-color:#495057;
+}
+
+.cola h2{
+    padding-top: 50px;
+    font-weight: 100;
+    font-size: 60px;
+    margin-bottom: -4%;
+}
+
+.cola h1{
+    font-weight: 900;
+    font-size: 629%;
+}
+
+.hrr{
+    border-top: 8px solid;
+    color: #ffc107;
+    width: 55%;
+}
+
+.par{
+    padding-top: 4%;
+    font-size: 88%;
+    padding-bottom: 59px;
+}
+
+
+.ba{
+    text-align: center;
+}
+
+.ba img{
+    width: 360px;
+    height: 450px;
+}
+
+.colb{
+    padding-top: 50px;
+    font-weight: 300;
+    font-size: 180%;
+    margin-bottom: -4%;
+}
+
+.arro i:hover{
+    transform: rotate(90deg);
+}
+
+.colb h5 a,.social a{
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.social{
+    margin: 20px 0 28px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social i:hover{
+    box-shadow: 0 4px 8px 0 rgba(238, 191, 3, 0.392), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content{
+    background-color:#343a40;
+}
+
+.row2{
+    background-color: #595d61fa;
+    transform: translateY(-50%);
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, 0.393);
+    margin: 8% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.logo:hover{
+    transform: scale(1.03);
+    background-color: rgba(0, 0, 0, 0.611);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row2 img{
+    width: 52%;
+    height: 55px;
+}
+
+.works h2{
+    font-weight: 700;
+    font-size: 218%;
+}
+
+.bor2{
+    margin-bottom: 2%;
+    border-bottom: #ffc107 solid 4px;
+}
+
+.cd1{
+    background-color: #495057 !important;
+}
+
+.cd1:hover{
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col{
+    padding-bottom: 25px;
+}
+
+.cd1 h5{
+    color: #ffc107;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.cd1 p{
+    margin-top: 4px;
+    text-align: center;
+}
+
+.cd1 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.foot{
+    background-color: #495057;
+}
+
+.form1{
+    padding-top: 25px;
+}
+
+@media(max-width:451px){
+    .cola h2{
+        padding-top: 10px;
+        font-weight: 100;
+        font-size: 60px;
+        margin-bottom: -4%;
+    }
+    .cola h1{
+        font-size: 526%;
+    }
+    .par{
+        padding-bottom: 20px;
+    }
+    .row2{
+        transform: translateY(0%);
+    }
+    .cd1{
+        width: 100%;
+    }
+}
